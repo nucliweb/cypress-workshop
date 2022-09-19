@@ -1,0 +1,28 @@
+{
+  "name": "cypress-workshop",
+  "version": "1.0.0",
+  "description": "Cypress Workshop Samples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nucliweb/cypress-workshop.git"
+  },
+  "keywords": [
+    "testing",
+    "cypress",
+    "test",
+    "e2e"
+  ],
+  "author": "Joan Leon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nucliweb/cypress-workshop/issues"
+  },
+  "homepage": "https://github.com/nucliweb/cypress-workshop#readme",
+  "devDependencies": {
+    "cypress": "^10.8.0"
+  }
+}
