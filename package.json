@@ -4,7 +4,8 @@
   "description": "Cypress Workshop Samples",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open --browser chrome --e2e"
+    "test": "cypress open --browser chrome --e2e",
+    "test:oldSchool": "CYPRESS_COMMAND_DELAY=1000 cypress open --browser chrome --e2e"
   },
   "repository": {
     "type": "git",
