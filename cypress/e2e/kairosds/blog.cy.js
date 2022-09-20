@@ -1,5 +1,7 @@
-describe("Blog fannel", () => {
-    it("tests Blog fannel", () => {
+// Test script via https://github.com/cypress-io/cypress-recorder-extension
+
+describe("Blog funnel", () => {
+    it("tests Blog funnel", () => {
     
       cy.visit("https://www.kairosds.com/");
     
