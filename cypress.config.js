@@ -6,7 +6,7 @@ module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
   e2e: {
     includeShadowDom: true,
-    excludeSpecPattern: ['**/1-getting-started/**', '**/2-advanced-examples/**'],
+    // excludeSpecPattern: ['**/1-getting-started/**', '**/2-advanced-examples/**'],
     setupNodeEvents(on, config) {
       require('cypress-mochawesome-reporter/plugin')(on);
     },
