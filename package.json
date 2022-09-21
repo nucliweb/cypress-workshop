@@ -4,7 +4,11 @@
   "description": "Cypress Workshop Samples",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open --browser chrome --e2e",
+    "test": "cypress run --record --key 15b8143d-bc93-429e-be08-623e0faeb700",
+    "test:chrome": "npm run test -- --browser chrome --e2e",
+    "test:firefox": "npm run test -- --browser firefox --e2e",
+    "test:webkit": "npm run test -- --browser webkit --e2e",
+    "test:open": "cypress open --browser chrome --e2e",
     "test:oldSchool": "CYPRESS_COMMAND_DELAY=1000 cypress open --browser chrome --e2e"
   },
   "repository": {
@@ -24,6 +28,7 @@
   },
   "homepage": "https://github.com/nucliweb/cypress-workshop#readme",
   "devDependencies": {
-    "cypress": "^10.8.0"
+    "cypress": "^10.8.0",
+    "cypress-mochawesome-reporter": "^3.2.2"
   }
 }
