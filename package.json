@@ -9,6 +9,7 @@
     "test:firefox": "npm run test -- --browser firefox --e2e",
     "test:webkit": "npm run test -- --browser webkit --e2e",
     "test:open": "cypress open --browser chrome --e2e",
+    "test:home": "cypress run --browser chrome --spec cypress/e2e/kairosds/kw-home.cy.js",
     "test:oldSchool": "CYPRESS_COMMAND_DELAY=1000 cypress open --browser chrome --e2e"
   },
   "repository": {
